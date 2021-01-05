@@ -11,7 +11,7 @@
 
 <body>
   <div class="container">
-    <div id="welcome" text-white>
+    <div id="welcome">
       <img src="images/logo/logo.png" alt="logo">
       <h1>WELCOME TO DELANI STUDIO</h1>
       <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P>
@@ -42,7 +42,7 @@
             <p>Throughout your project, our designers create and implement visual design and workflows, solicit user
               feedback and work with you to make sure what gets built is what is needed.</p>
           </div>
-          <div id="design-image">
+          <div id="design_image">
             <img src="images/services_icons/design_icon.png" alt="design">
             <p>DESIGN</p>
           </div>
@@ -54,7 +54,7 @@
             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such
               as test-driven development and pair programming.</p>
           </div>
-          <div id="development-image">
+          <div class = "image">
             <img src="images/services_icons/dev_icon.png" alt="development">
             <P>DEVELOPMENT</P>
           </div>
@@ -66,39 +66,13 @@
             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such
               as test-driven development and pair programming.</p>
           </div>
-          <div id="product-image">
+          <div class = "image">
             <img src="images/services_icons/product_icon.png" alt="products">
             <P>PRODUCT MANAGEMENT</P>
           </div>
         </div>
       </div>
     </div>
-    <!--<div class="row">
-      <p>WHAT WE DO</p>
-      <div class="row">
-        
-        <div class="card col-md-4">
-          <img src="images/services_icons/design_icon.png">
-          <p>Our design practice offers a full range of services including brand strategy, interaction and visual design
-            and user experience testing.
-            Throughout your project, our designers create and implement visual design and workflows, solicit user
-            feedback
-            and work with you to make sure what gets built is what is needed.</p>
-        </div>
-        <div class="card col-md-4">
-          <img src="images/services_icons/dev_icon.png">
-          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
-            They collaborate with your team to write, and improve code on a daily basis, using proven practices such as
-            test-driven development and pair programming.</p>
-        </div>
-        <div class="card col-md-4">
-          <img src="images/services_icons/product_icon.png">
-          <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build
-            are always ready to go live.
-            This iterative process allows for changes as business requirements evolve.</p>
-        </div>
-      </div>
-    </div>-->
     <p>PORTFOLIO</p>
     <div class="row">
       <div class="card col-md-3">
@@ -126,11 +100,17 @@
         <img src="images/portfolio/work8.jpg">
       </div>
     </div>
-    <div class="contact">
-      <img src="images/backgrounds/c_image.jpg">
-      <div class="form">
-
-      </div>
+    <div class="contact">      
+      <form>
+        <div class="form-group form-inline">
+          <input type="text" class="form-control" placeholder = "Name....">
+          <input type="email" class="form-control"  placeholder = "Email....">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="4" id="comment" placeholder = "Your message here...."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+      </form>
     </div>
 
     <div class="footer">
