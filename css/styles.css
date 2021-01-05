@@ -45,6 +45,21 @@
   font: Dosis;  
   text-align: center;
 }
+#overlay_1,#overlay_2,#overlay_3,#overlay_4,#overlay_5,#overlay_6,#overlay_7,#overlay_8{
+  display: none;
+  color: black;
+  width: 80%;
+  height: 80%;
+  position:absolute;
+  border: 2px solid white;
+  top: 26px;
+  left: 38px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50%;
+  font: Dosis;
+}
 .contact {
   background-image: url(../images/backgrounds/c_image.jpg);
   font: Dosis;
