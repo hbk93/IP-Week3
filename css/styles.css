@@ -20,6 +20,10 @@
 .contact {
   background-image: url(../images/backgrounds/c_image.jpg);
 }
+input[type=text],input[type=email],#comment{
+  background: transparent;
+  color: white;
+}
 .footer {
   align-content: center center;
   justify-content: center;
