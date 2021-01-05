@@ -1,13 +1,27 @@
 #welcome {
   background-image: url(../images/backgrounds/h_img.jpg) ;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
+  text-justify: auto;
+  color: white;
 }
-#service {
+#services {
   background-image: url(../images/backgrounds/s_image.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  align-items: center;
+  color: white;
+}
+#design {
+  display: auto;
+}
+.contact {
+  background-image: url(../images/backgrounds/c_image.jpg);
+}
+.footer {
+  align-content: center center;
+  justify-content: center;
   align-items: center;
 }
