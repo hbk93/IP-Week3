@@ -7,4 +7,5 @@
 * Run the URL on your browser
 ## Known Bugs
 * Mail chimp API does not function.
-
+## Technologies Used
+* HTML, CSS, Bootstrap CSS, JavaScript, Jquery.
