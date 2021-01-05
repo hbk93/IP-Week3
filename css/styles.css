@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/);
+
 #welcome {
   background-image: url(../images/backgrounds/h_img.jpg) ;
   background-size: 100%;
@@ -5,27 +7,56 @@
   background-repeat: no-repeat;
   text-justify: auto;
   color: white;
+  text-align: center;
+  font: Dosis;
 }
+.portfolio {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;  
+  margin-left:18%;
+  margin-right: 16%;
+  font: Dosis;
+}
+.about-us {
+  text-align: center;
+  font: Dosis;
+}
+
 #services {
   background-image: url(../images/backgrounds/s_image.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  align-items: center;
+  text-align: center;
   color: white;
+  font: Dosis;
 }
-#design {
-  display: auto;
+.heading {
+  text-align: center;
+  font: Dosis;
+}
+#product, #development, #design{
+  display: none;  
+  font-size: 16px;
+  font: Dosis;
+}
+#product_image, #development_image, #design_image {
+  font: Dosis;  
+  text-align: center;
 }
 .contact {
   background-image: url(../images/backgrounds/c_image.jpg);
+  font: Dosis;
 }
 input[type=text],input[type=email],#comment{
   background: transparent;
   color: white;
+  font: Dosis;
 }
 .footer {
-  align-content: center center;
+  text-align: center;
   justify-content: center;
   align-items: center;
+  font: Dosis;
 }
