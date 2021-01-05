@@ -9,3 +9,5 @@
 * Mail chimp API does not function.
 ## Technologies Used
 * HTML, CSS, Bootstrap CSS, JavaScript, Jquery.
+## Support and contact details
+* Should you wish to contribute, fork the project and raise a pull request (PR)
