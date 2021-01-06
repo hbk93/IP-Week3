@@ -88,14 +88,5 @@ $(document).ready(function () {
 });
 
 function onSubmit () {
-  let name = document.getElementById('name').value;
-  let email = document.getElementById('email').value;
-  let message = documet.getElementById('comment').value;
-
-  if (name === "" || email === "" || message === "") {
-    alert ("Please ensure that you have filled in all the areas");
-  }
-  else {
   alert("Thank you for your submission")
-  }
 }
